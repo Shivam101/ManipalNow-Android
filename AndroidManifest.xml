@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nav"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_new"
+        android:label="Manipal Now"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name="com.example.nav.MainActivity"
+            android:label="Manipal Now"
+            android:theme="@style/CustomActionBarTheme" >
+                   </activity>
+        <activity
+            android:name="com.example.nav.Settings"
+            android:theme="@android:style/Theme.DeviceDefault.Light" >
+        </activity>
+        <activity
+            android:name="com.example.nav.Food"
+            android:label="@string/title_activity_food"
+            android:parentActivityName="com.example.nav.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nav.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.nav.RestaurantFragment"
+            android:label="@string/title_activity_resto1"
+            android:parentActivityName="com.example.nav.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nav.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.nav.Settings2"
+            android:label="Settings"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.example.nav.Settings3"
+            android:label="@string/title_activity_settings3"
+            android:parentActivityName="com.example.nav.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nav.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.nav.CafeFragment"
+            android:label="@string/title_activity_resto2"
+            android:parentActivityName="com.example.nav.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nav.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.nav.BarFragment"
+            android:label="@string/title_activity_bar_fragment"
+            android:parentActivityName="com.example.nav.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nav.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.nav.HospitalFragment"
+            android:label="@string/title_activity_hospital_fragment"
+            android:parentActivityName="com.example.nav.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nav.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.nav.Coffee"
+            android:label="@string/title_activity_coffee"
+            android:parentActivityName="com.example.nav.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nav.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.nav.HelpActivitiy"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_help_activitiy"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.example.nav.HelpAct"
+            android:label="Manipal Now" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" >
+    </uses-permission>
+
+</manifest>

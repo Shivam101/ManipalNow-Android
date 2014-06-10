@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources>
+
+    <string name="app_name">Navigation Drawer Example</string>
+
+    <string-array name="planets_array">
+        <item>Restaurants</item>
+        <item>Cafes</item>
+        <item>Bars</item>
+        <item>Hospitals</item>
+        <item>Airports</item>
+        <item>Cab Services</item>
+        <item>Hotels</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="action_help">Help</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="title_activity_hospitals1">Hospitals1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="privateh1">Private Hospitals</string>
+    <string name="governmenth1">Government Hospitals</string>
+    <string name="title_activity_hospitals">Hospitals</string>
+    <string name="title_activity_food">Food</string>
+    <string name="aloha">M.G.M. Arcade, Vidyarathna Nagar\nEnd Point Road, Saralebettu\nManipal-576104</string>
+    <string name="attill">2nd cross, Laxmindra Nagar\nNear Indian Nursery\nManipal-576104</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_resto1">Resto1</string>
+    <string name="biryaniadda">Ground Floor, Pavithra Residency\nOpp. M.I.T side gate, Manipal - Parkala Road</string>
+    <string name="chinavalley">Ground Floor, Mandavi Palace\nSaralebettu\nManipal, KA 576104</string>
+    <string name="dishes">Unnatha Residency, Near Syndicate Circle\nMain Road, Manipal 576104</string>
+    <string name="dollops">Near State Bank of India\nTiger Circle\nManipal 576104</string>
+    <string name="dominos">Shop No 1 and 2,  Door No 4-1A\nPremier Park Building, Near Syndicate Circle\nManipal 576104</string>
+    <string name="grababite"> Greenview Apartments, Shop No.7, Ground Floor\nNear Syndicate Bank Circle,Manipal Main Road\nManipal 576104 </string>
+    <string name="guzzlers">Near Hotel Ashlesh,Opposite M.I.T\nManipal Karkala Road,Manipal-576104</string>
+    <string name="rest">Restaurants</string>
+    <string name="lipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet quam eros. In tristique commodo tellus ac elementum. Maecenas eget leo at enim posuere sodales sagittis ut ligula. Phasellus rutrum commodo nulla. Phasellus quis blandit orci. In justo nunc, volutpat vitae ornare vitae, sollicitudin ut enim. Praesent mollis mi dolor, eget bibendum eros tincidunt nec.</string>
+    <string name="cafe">Cafes</string>
+    <string name="bar">Bars</string>
+    <string name="hosp">Hospitals</string>
+    <string name="aloha_num">08202571448</string>
+    <string name="attill_num">08204293399</string>
+    <string name="dominos_num">08204290025</string>
+    <string name="grababite_num">08202574100</string>
+    <string name="guzzlers_num">08204292602</string>
+    <string name="biryani_num">+919242623112</string>
+    <string name="china_num">08204293788</string>
+    <string name="dishes_num">08203250064</string>
+    <string name="dollops_num">08202570908</string>
+    <string name="title_activity_resto2">Resto2</string>
+    <string name="title_activity_settings2">Settings2</string>
+    <string name="title_activity_settings3">Settings</string>
+    <string name="title_activity_bar_fragment">BarFragment</string>
+    <string name="title_activity_hospital_fragment">HospitalFragment</string>
+    <string name="title_activity_coffee">Coffee</string>
+    <string name="title_activity_help_activitiy">HelpActivitiy</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_help">HelpAct</string>
+
+</resources>
